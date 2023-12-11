@@ -1,0 +1,36 @@
+*{
+    font-family: poppins;
+}
+input{
+    padding: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#button1{
+    background-color:white;
+    color: black;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border:none;
+    font-size: medium;
+}
+#button2{
+    background-color:white;
+    color: black;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border:none;
+    font-size: medium;
+}
+
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login System</title>
+</head>
+<body>
+    <div class="container">
+        <form id="loginForm" class="form">
+            <h2>Login</h2>
+            <label for="loginUsername">Username:</label>
+            <input type="text" id="loginUsername" name="loginUsername" required>
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required>
+            <button type="submit">Login</button>
+        </form>
+
+        <form id="signupForm" class="form">
+            <h2>Sign Up</h2>
+            <label for="signupUsername">Username:</label>
+            <input type="text" id="signupUsername" name="signupUsername" required>
+            <label for="signupPassword">Password:</label>
+            <input type="password" id="signupPassword" name="signupPassword" required>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <div id="forgotPasswordForm" class="form">
+            <h2>Forgot Password</h2>
+            <label for="forgotEmail">Email:</label>
+            <input type="email" id="forgotEmail" name="forgotEmail" required>
+            <button type="button" onclick="sendResetEmail()">Send Reset Email</button>
+        </div>
+
+        <div id="resetPasswordForm" class="form">
+            <h2>Reset Password</h2>
+            <label for="newPassword">New Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+            <label for="confirmNewPassword">Confirm New Password:</label>
+            <input type="password" id="confirmNewPassword" name="confirmNewPassword" required>
+            <button type="button" onclick="resetPassword()">Reset Password</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
